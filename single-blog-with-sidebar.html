@@ -1,0 +1,663 @@
+      <!DOCTYPE html>
+        <html lang="en" dir="ltr">
+          <head>
+            <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Title-->
+    <title>Single Blog With Sidebar</title>
+    <!-- Favicon-->
+    <link rel="icon" href="image/favicon.jpg" type="image/x-icon">
+    <!-- Stylesheets-->
+              <link rel="stylesheet" href="css/bootstrap.min.css">
+              <link rel="stylesheet" href="css/all.min.css">
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/animate.css">
+        </head>
+
+      <body>
+
+  <!--Preloader-->
+      <div id="preloader">
+         <div class="loader-container">
+            <div class="spinner">
+              <div class="rect1"></div>
+              <div class="rect2"></div>
+              <div class="rect3"></div>
+              <div class="rect4"></div>
+              <div class="rect5"></div>
+            </div>
+        </div>
+       </div>
+      <!--End Preloader-->
+
+
+        <!-- SECTION 0 NAV -->          
+  <header class="main-header">
+            <!--Header Top-->
+            <div id="mosttop-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-12">
+                            <ul class="mosttop-bar-info">
+                                <li><i class="fas fa-phone"></i> Phone: +(98) 888 7777</li>
+                                <li><i class="fa fa-envelope"></i>Email: sample-email@example.com</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <ul class="social-icons hidden-sm">
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Header Top -->
+
+            <!-- Header Middle -->
+            <div class="bt_blank_nav"></div>
+            <div class="header-middle bt_stick">
+                <div class="inner-container">
+                    <div class="container clearfix">
+                        <div class="logo-middle">
+                            <div class="logo">
+                                <a href="index.html"><img src="image/logo.svg" alt="" title=""></a>
+                            </div>
+                        </div>
+
+                        <div class="nav-middle clearfix">
+                            <!-- Main Menu -->
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                                <div class="navbar-header">
+                                    <!-- Toggle Button -->
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmobileshow" aria-controls="navmobileshow" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="icon fas fa-align-right"></span>
+                                    </button>
+                                </div>
+
+                                <div class="collapse navbar-collapse clearfix" id="navmobileshow">
+                                    <ul class="navigation clearfix">
+                                        <li class=" dropdown"><a href="index.html">Home</a>
+                                            <ul>
+                                                <li><a href="index.html">Home1</a></li>
+                                                <li><a href="index2.html">Home2</a></li>
+                                                <li><a href="index3.html">Home3</a></li>
+                                                <li><a href="index4.html">Home4</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">Pages</a>
+                                            <ul>
+                                                <li><a href="about.html">About Company</a></li>
+                                                <li><a href="testimonial.html">Testimonials</a></li>
+                                               <li><a href="faq.html">FAQ’s</a></li>                                
+                                                <li><a href="404.html">404 Page</a></li>
+
+                                                <li><a href="teams.html">Teams</a></li>
+                                                <li><a href="typography.html">typography</a></li>
+                                                <li><a href="form.html">form</a></li>
+                                                <li><a href="progress-bar.html">progress bar</a></li>
+                                                <li><a href="privacy-policy.html">privacy policy</a></li>
+                                                <li><a href="search.html">search</a></li>
+                                                <li><a href="button.html">button</a></li>
+                                                <li><a href="tab.html">tab</a></li>
+                                                <li><a href="table.html">table</a></li>
+                                                <li><a href="accordion-and-toggle.html">accordion and Toggle</a></li>
+                                                <li><a href="counter-and-countdown.html">counter and countdown</a></li>
+
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="services.html">Services</a>
+                                            <ul>
+                                                <li><a href="services.html">Services</a></li>
+                                                <li><a href="service-detail.html">Services Detail</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="#">Projects</a>
+                                            <ul>
+                                                <li><a href="projects.html">Project</a></li>
+                                                <li><a href="project-detail.html">Project detail</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown current"><a href="#">Blog</a>
+                                            <ul>
+                                                <li><a href="blog-default.html">Blog Default</a></li>
+                                                <li><a href="blog-with-sidebar.html">Blog With Sidebar</a></li>
+                                                <li><a href="single-blog-with-sidebar.html">Blog Single Post</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <!-- Main Menu End-->
+
+                            <!-- Header Info box-->
+                            <div class="header-infobox clearfix">
+                                <!-- header widget Box -->
+                                <div class="header-widgetbox clearfix">
+                                    <!--Search Box-->
+                                    <div class="header-searcbox">
+                                        <div class="dropdown">
+                                            <button class="search-box-btn dropdown-toggle" type="button" id="togglemenuDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-search"></span></button>
+                                            <ul class="dropdown-menu pull-right search-wrapper" aria-labelledby="togglemenuDropdown">
+                                                <li class="seach-ineerbox">
+                                                    <div class="form-container">
+                                                        <form method="post">
+                                                            <div class="form-group">
+                                                                <input type="search" name="field-name" value="" placeholder="Search Here" required>
+                                                                <button type="submit" class="search-btn"><span class="fa fa-search"></span></button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Header Info box end-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Header Middle-->
+        </header>
+
+       <!--  SECTION Slider -->
+    <section class="page-header-section" style="background-image: url(image/intro/header1.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="paget-title"><h2>Single Blog</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav class="breadcrumbs">
+                    <div class="container">
+                        <ul class="breadcrumbs--list">
+                                                            <li class="breadcrumbs--item">
+                                    <a href="#" class="breadcrumbs--link">
+                                        Home                                    </a>
+                                </li>
+                                <li class="breadcrumbs--item">
+                                    <a href="#" class="breadcrumbs--link -active">
+                                        Single Blog                                   </a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </nav>
+   <div class="blog-body content-area-4 padding-top-100 padding-bottom-100 padding-sm-top-50 padding-sm-bottom-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <!-- Blog 1 start -->
+                <div class="blog-1 blog-big">
+                    <div class="blog-photo">
+                        <img src="image/blog/blog-single.jpg" alt="blog-img" class="img-fluid">
+                    </div>
+                    <div class="detail">
+                        <h1 class="hadding-title">
+                            Find Your Dream Real Estate
+                        </h1>
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat. Suspendisse vulputate porttitor condimentum.Mauris mattis auctor cursus. Phasellus tellus tellus</p>
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat. 
+                        Suspendisse vulputate porttitor condimentum.Mauris mattis auctor cursus. Phasellus tellus tellusMauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat.</p>
+                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat. 
+                        Suspendisse vulputate porttitor condimentum.Mauris mattis auctor cursus. Phasellus tellus tellusMauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat. 
+                        Suspendisse vulputate porttitor condimentum.Mauris mattis auctor cursus. Phasellus tellus tellus</p>
+                        <br>
+                        <div class="row clearfix">
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class="blog-tags">
+                                    <span>Tags</span>
+                                    <a href="#">Features</a>
+                                    <a href="#">Gallery</a>
+                                    <a href="#">Slideshow</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <div class="blog-social-list  padding-sm-tb-20">
+                                    <span>Share</span>
+                                    <a href="#" class="facebook-bg">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="twitter-bg">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="google-bg">
+                                        <i class="fab fa-google"></i> 
+                                    </a>
+                                    <a href="#" class="linkedin-bg">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" class="pinterest-bg">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Heading 2 -->
+                <h3 class="heading-2">Comments Section</h3>
+                <!-- Comments start -->
+                <ul class="comments">
+                    <li>
+                        <div class="comment">
+                            <div class="comment-author">
+                                <a href="#">
+                                    <img src="image/blog/s2.jpg" alt="comments-user">
+                                </a>
+                            </div>
+                            <div class="comment-content">
+                                <div class="comment-meta">
+                                    <h6>
+                                        Maikel Alisa
+                                        <span class="float-right">11/28/2019<a href="#">Reply</a></span>
+                                    </h6>
+                                </div>
+                                <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat. Suspendisse vulputate porttitor condimentum.</p>
+                            </div>
+                        </div>
+                        </li>
+                        <li>
+                                <div class="comment">
+                                    <div class="comment-author">
+                                        <a href="#">
+                                            <img src="image/blog/s1.jpg" alt="comments-user">
+                                        </a>
+                                    </div>
+                                    <div class="comment-content">
+                                        <div class="comment-meta">
+                                            <h6>
+                                                Carolyn Stone
+                                                <span class="float-right">11/28/2019<a href="#">Reply</a></span>
+                                            </h6>
+                                        </div>
+                                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat.</p>
+                                    </div>
+                                </div>
+                            </li>                        
+                    <li>
+                        <div class="comment">
+                            <div class="comment-author">
+                                <a href="#">
+                                    <img src="image/blog/s3.jpg" alt="comments-user">
+                                </a>
+                            </div>
+                            <div class="comment-content">
+                                <div class="comment-meta">
+                                    <h6>
+                                        Brandon Miller
+                                        <span class="float-right">11/28/2019<a href="#">Reply</a></span>
+                                    </h6>
+                                </div>
+                                <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat. </p>
+                            </div>
+                        </div>
+                        </li>
+                        <li>
+                                <div class="comment mb-50">
+                                    <div class="comment-author">
+                                        <a href="#">
+                                            <img src="image/blog/s4.jpg" alt="comments-user">
+                                        </a>
+                                    </div>
+                                    <div class="comment-content b-none">
+                                        <div class="comment-meta">
+                                            <h6>
+                                                Michelle Nelson
+                                                <span class="float-right">11/28/2019<a href="#">Reply</a></span>
+                                            </h6>
+                                        </div>
+                                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat. </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                <!-- Contact 2 start -->
+                <div class="bt-comment-wrapper mb-50">
+                    <h3 class="heading-2">Comment Form</h3>
+                    <form method="post" id="contact-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="single-input-item">
+                                            <label>
+                                                <input type="text" name="full_name" placeholder="Full Name *" required="">
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="single-input-item">
+                                            <label>
+                                                <input type="email" name="email_address" placeholder="Email address *" required="">
+                                            </label>
+                                        </div>
+                                    </div>                                
+
+                                    <div class="col-12">
+                                        <div class="single-input-item">
+                                            <label for="con_message" class="sr-only m-0"></label>
+                                            <textarea name="con_message" id="con_message" cols="30" rows="7" placeholder="Comment *" required=""></textarea>
+                                        </div>
+
+                                        <div class="single-input-item mb-0 mt-40">
+                                            <button class="btb-button rounded-3px">Send Comment</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                </div>
+            </div>
+            
+                <div class="col-md-4">
+                <div class="sidebar ">
+                    <div class="single-sidebar search-widget">
+                        <form action="#" class="search-form">
+                            <input type="text" placeholder="Search..">
+                            <button class="fa fa-search" type="submit"></button>
+                        </form><!-- /.search-form -->
+                    </div><!-- /.single-sidebar -->
+                    <div class="single-sidebar category-widget">
+                        <div class="title">
+                            <h3>Categories</h3>
+                        </div><!-- /.title -->
+                        <ul class="category-lists">
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Corporate <span class="count">(2)</span></a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Business <span class="count">(8)</span></a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> WordPress <span class="count">(10)</span></a></li>
+                            <li><a href="#"><i class="fa fa-angle-right"></i> Html <span class="count">(5)</span></a></li>
+                        </ul><!-- /.category-lists -->
+                    </div><!-- /.single-sidebar -->
+                    <div class="single-sidebar recent-post-widget">
+                        <div class="title">
+                            <h3>Recent Posts</h3>
+                        </div><!-- /.title -->
+                        <div class="recent-post-wrapper">
+                            <div class="single-recent-post">
+                                <div class="img-box">
+                                    <img src="image/blog/s1.jpg" alt="Awesome Image">
+                                </div><!-- /.img-box -->
+                                <div class="text-box">
+                                    <a href="#"><h4> To build a world out of rocks and chaos</h4></a>
+                                    <p><i class="far fa-clock"></i>5 hours ago</p>
+                                </div><!-- /.text-box -->
+                            </div><!-- /.single-recent-post -->
+                            <div class="single-recent-post">
+                                <div class="img-box">
+                                    <img src="image/blog/s2.jpg" alt="Awesome Image">
+                                </div><!-- /.img-box -->
+                                <div class="text-box">
+                                    <a href="#"><h4>Where we're standing right now</h4></a>
+                                    <p><i class="far fa-clock"></i>5 hours ago</p>
+                                </div><!-- /.text-box -->
+                            </div><!-- /.single-recent-post -->
+                            <div class="single-recent-post">
+                                <div class="img-box">
+                                    <img src="image/blog/s3.jpg" alt="Awesome Image">
+                                </div><!-- /.img-box -->
+                                <div class="text-box">
+                                    <a href="#"><h4>And maybe knowing isn't the point</h4></a>
+                                    <p><i class="far fa-clock"></i>5 hours ago</p>
+                                </div><!-- /.text-box -->
+                            </div><!-- /.single-recent-post -->
+                        </div><!-- /.recent-post-wrapper -->
+                    </div><!-- /.single-sidebar -->
+                    <div class="single-sidebar subscribe-widget">
+                        <div class="title">
+                            <h3>Subscription</h3>
+                        </div><!-- /.title -->
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Email Address">
+                            <button class="fa fa-paper-plane" type="submit"></button>
+                        </form><!-- /.subscribe-form -->
+                    </div><!-- /.single-sidebar -->
+                    <div class="single-sidebar tags-widget">
+                        <div class="title">
+                            <h3>Tag</h3>
+                        </div><!-- /.title -->
+                        <ul class="tag-lists">
+                            <li><a href="#">Analytics</a></li>
+                            <li><a href="#">Busniess</a></li>
+                            <li><a href="#">Consulting</a></li>
+                            <li><a href="#">Data</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Firm</a></li>
+                            <li><a href="#">innovation</a></li>
+                        </ul><!-- /.tag-lists -->
+                    </div><!-- /.single-sidebar -->
+                    <div class="single-sidebar archive-widget">
+                        <div class="title">
+                            <h3>Archive</h3>
+                        </div><!-- /.title -->
+                        <ul class="category-lists">
+                            <li><a href="#"><i class="far fa-bookmark"></i> June 2018 <span class="count">(2)</span></a></li>
+                            <li><a href="#"><i class="far fa-bookmark"></i> July 2018 <span class="count">(8)</span></a></li>
+                            <li><a href="#"><i class="far fa-bookmark"></i> Sep 2017 <span class="count">(10)</span></a></li>
+                            <li><a href="#"><i class="far fa-bookmark"></i> Dec 2017 <span class="count">(5)</span></a></li>
+                        </ul><!-- /.archive-lists -->
+                    </div><!-- /.single-sidebar -->
+                    <div class="single-sidebar instagram-widget">
+                        <div class="title">
+                            <h3>Instagram</h3>
+                        </div><!-- /.title -->
+                        <ul class="instagram-lists clearfix">
+                            <li><a href="#">
+                                <img src="image/blog/s4.jpg" alt="Awesome Image">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="image/blog/s5.jpg" alt="Awesome Image">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="image/blog/s8.jpg" alt="Awesome Image">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="image/blog/s2.jpg" alt="Awesome Image">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="image/blog/s7.jpg" alt="Awesome Image">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="image/blog/s1.jpg" alt="Awesome Image">
+                            </a></li>
+                        </ul><!-- /.archive-lists -->
+                    </div><!-- /.single-sidebar -->
+                </div><!-- /.sidebar sidebar-right -->
+            
+            </div>
+        </div>
+    </div>
+</div>
+<section class="contact-mail-section">
+            <div class="container">
+                <div class="row">                    
+                    <div class="col-md-12">
+                        <div class="newslater_wrapper">
+                        <div class="row">
+                    <div class="col-lg-4 col-md-4 margin-sm-bottom-30">
+                        <div class="newslater-footer padding-left-40 padding-right-20 padding-sm-0">
+                            <h4>Subscribe Now</h4>
+                            <form action="#" method="post">
+<input class="bt-email" type="email" required="" name="ne" value="" placeholder="Enter your e-mail">
+<button type="submit" class="bt-submit">Submit</button>
+</form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 margin-sm-bottom-30">
+                            <div class="footer-contact-list">
+                                <h4>Contacts Now</h4>
+                                <p>Call Us : +(98) 888 7777 <br>Email Us : sample-email@example.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4">
+                            <div class="footer-contact-list">
+                                <h4>Follow Us</h4>
+                                <div class="follow-icons">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-behance"></i></a>
+                                </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+<!-- footer area start -->
+<footer class="footer-area">
+    <div class="footer-top padding-top-150 padding-bottom-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 margin-sm-bottom-30">
+                    <div class="footer-widget widget">
+                        <h4 class="widget-title">About Us</h4>
+                       <div class="about_us_widget">
+                            <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet.</p>
+                            <ul class="footer-about-social">
+    <li><a href="#"><i class="fab fa-facebook-f"></i> </a></li>    
+    <li><a href="#"><i class="fab fa-twitter"></i> </a></li>    
+    <li><a href="#"><i class="fab fa-linkedin-in"></i> </a></li>    
+    <li><a href="#"><i class="fab fa-instagram"></i> </a></li>    
+    <li><a href="#"><i class="fab fa-behance"></i> </a></li>    
+    </ul>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 margin-sm-bottom-30">
+                    <div class="footer-widget widget ">
+                        <h4 class="widget-title">Contact us</h4>
+                        <ul class="contact_info_list">
+                            <li class="single-info-item">
+                                <div class="icon">
+                                    <i class="fa fa-home"></i>
+                                </div>
+                                <div class="details">
+                                    Raffles Avenue, Singapore Flyer, Singapore
+                                </div>
+                            </li>
+                            <li class="single-info-item">
+                                <div class="icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="details">
+                                        +(98) 888 7777<br>
+                                        +(12) 999 22333
+                                </div>
+                            </li>
+                            <li class="single-info-item">
+                                <div class="icon">
+                                   <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="details">
+                                    sample-email@example.com<br>
+                                    myinfo@example.com
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 margin-sm-bottom-30">
+                    <div class="footer-widget widget widget_nav_menu">
+                        <h4 class="widget-title">Usefull Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget footer-recent-post widget">
+                        <h4 class="widget-title">Recent Post</h4>
+                        
+                        <div class="widget-post">
+                                        <div class="bt-post-date text-center text-uppercase text-white">
+                                            <strong class="p-date">24</strong>
+                                            <span class="p-month">April</span>
+                                            <span class="p-year">2019</span>
+                                        </div>
+                                        <div class="bt-post-info">
+                                            <div class="bt-post-header">
+                                               <h6 class="post-title"><a href="#">Where we're standing right now</a></h6>
+                                            </div>
+                                            <div class="bt-post-meta">
+                                                <ul>
+                                                    <li class="post-author"><i class="fa fa-user"></i>By Admin</li>
+                                                    <li class="post-comment"><i class="fa fa-comments"></i> 28</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="widget-post">
+                                        <div class="bt-post-date text-center text-uppercase text-white">
+                                            <strong class="p-date">24</strong>
+                                            <span class="p-month">April</span>
+                                            <span class="p-year">2019</span>
+                                        </div>
+                                        <div class="bt-post-info">
+                                            <div class="bt-post-header">
+                                               <h6 class="post-title"><a href="#">And maybe knowing isn't the point</a></h6>
+                                            </div>
+                                            <div class="bt-post-meta">
+                                                <ul>
+                                                    <li class="post-author"><i class="fa fa-user"></i>By Admin</li>
+                                                    <li class="post-comment"><i class="fa fa-comments"></i> 28</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="small-footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="copyright-area">
+                            &copy; Copyright 2019 themelazer.info All rights reserved. 
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-menu-area">
+                            <ul class="footer-menu-list">
+                            <li><a href="#">FAQS</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer area end -->
+<button class="scroll-totop "><i class="ti-angle-up"></i></button>    
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>          
+    <script src="js/wow.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+  </html>
